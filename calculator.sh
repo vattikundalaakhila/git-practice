@@ -8,4 +8,4 @@ diff=$((a-b))
 echo "the difference is :"$diff
 product=$((a*b))
 echo "the product is :"$product
-
+echo "completed"
