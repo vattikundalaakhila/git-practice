@@ -12,3 +12,11 @@ echo "the product is :"$product
 divident=$((a/b))
 echo  "the divident is : " $divident
 
+echo "enter any number: " 
+read  x 
+if [ $x -gt 0 ] 
+then 
+echo "given number is positive number "
+else
+echo "given number is negative number"
+fi 
