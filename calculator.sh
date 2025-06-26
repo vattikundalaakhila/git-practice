@@ -1,4 +1,4 @@
-
+	
 #!/bin/bash
 a=10
 b=5
@@ -20,3 +20,14 @@ echo "given number is positive number "
 else
 echo "given number is negative number"
 fi 
+
+#even numbers
+echo "enter any number : "
+read n 
+if [ $n %2 -eq 0 ]
+then
+echo "given number is even number"
+else
+echo "given number is odd number"
+fi 
+
